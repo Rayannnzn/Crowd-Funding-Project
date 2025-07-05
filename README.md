@@ -1,7 +1,8 @@
-1. Proper README 
-2. Integration Tests
-3. Prgramatic Verification
-4. Push To Github
+
+1. Proper README ✅
+2. Integration Tests✅
+3. Prgramatic Verification✅
+4. Push To Github✅
 
 
 # About
@@ -42,11 +43,11 @@ forge build
 
 ## 🚀 Features
 
-- Fund the contract with ETH
-- Track funders and their contributions
-- Owner-only withdrawal function
-- Gas-optimized and secure
-- Thoroughly tested with Foundry
+- Fund the contract with ETH ✅
+- Track funders and their contributions ✅
+- Owner-only withdrawal function ✅
+- Gas-optimized and secure ✅
+- Thoroughly tested with Foundry ✅
 
 ---
 
