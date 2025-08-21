@@ -1,9 +1,31 @@
 
-1. Proper README ✅
-2. Integration Tests✅
-3. Prgramatic Verification✅
-4. Push To Github✅
+# 💰 FundMe (Chainlink Price Feeds)
 
+A decentralized crowdfunding contract built in Solidity.  
+Users can send ETH to the contract, but only if it’s worth at least **$5 USD** (using live Chainlink Price Feeds).  
+The owner of the contract can later withdraw the funds.  
+
+---
+
+## 📌 Features
+- Enforces a **minimum funding threshold** in USD (`$5`)
+- Integrates with **Chainlink Price Feeds** for reliable ETH/USD conversion
+- Tracks all funders and their contributions
+- Provides two withdrawal methods:
+  - `withdraw()` → standard loop
+  - `cheaperWithdraw()` → gas optimized
+- Uses **custom errors** (`FundMe__NotOwner`) instead of `require` strings
+- `onlyOwner` modifier to restrict withdrawals
+
+---
+
+## 🛠️ Tech Stack
+- Solidity `^0.8.18`
+- [Foundry](https://book.getfoundry.sh/) (Forge & Cast)
+- [Chainlink Price Feeds](https://docs.chain.link/data-feeds/price-feeds/addresses)
+- Custom **PriceConverter library** for ETH → USD conversions
+
+---
 
 # About
 
